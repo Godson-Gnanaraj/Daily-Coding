@@ -1,3 +1,5 @@
+# Two pointer approach
+
 class Solution:
     def two_sum(self, nums, k):
         nums.sort()
