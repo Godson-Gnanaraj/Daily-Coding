@@ -17,7 +17,7 @@ class Solution:
 
 def main():
     nums = [10, 15, 3, 7]
-    k = 20
+    k = 17
     solution = Solution()
     ans = solution.two_sum(nums, k)
     print(ans)
