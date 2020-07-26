@@ -1,14 +1,17 @@
 # Two pointer approach
 
+
 class Solution:
-    def two_sum(self, nums, k):
+
+    @staticmethod
+    def two_sum(nums, k):
         nums.sort()
         start, end = 0, len(nums) - 1
         while start < end:
             sum_val = nums[start] + nums[end]
             if sum_val == k:
                 return True
-            elif sum_val > k:
+            if sum_val > k:
                 end -= 1
             else:
                 start += 1

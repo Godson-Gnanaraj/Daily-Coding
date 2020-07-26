@@ -1,13 +1,15 @@
 # Using sets/hashes.
 
+
 class Solution:
-    def two_sum(self, nums, k):
+
+    @staticmethod
+    def two_sum(nums, k):
         pairs = set()
         for num in nums:
             if k - num in pairs:
                 return True
-            else:
-                pairs.add(num)
+            pairs.add(num)
         return False
 
 
