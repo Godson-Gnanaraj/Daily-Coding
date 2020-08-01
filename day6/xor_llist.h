@@ -4,7 +4,7 @@ class Node {
 	Node *both;
 	Node(int x) {
 		data = x;
-		both=nullptr;
+		both = nullptr;
 	}
 };
 
